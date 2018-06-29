@@ -1,0 +1,24 @@
+{
+    "name":  "paullaney/meeting",
+    "description": "Meeting Notes",
+    "homepage": "https://monkii.com",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Paul Laney",
+            "email": "paul@monkii.com"
+	}
+    ],
+    "require": {
+	"php": "^7.2"
+    },
+    "autoload": {
+        "psr-4": {
+	    "Paul\\Meeting\\": "src/Meeting"
+	}
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev"
+}
